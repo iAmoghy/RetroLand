@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="./resources/flickity.css" media="screen">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="pacman.css">
-    <link rel="stylesheet" href="./resources/bootstrap-iso.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/pacman.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <title>RetroLand</title>
 </head>
 <body>
 
     <div class="container">
-        <div id="topnav">
-            <b></b><u><a href="#home" class="selected">HOME</a></u></b>
+        <div id="topnav" data-aos="fade-down" data-aos-duration="1500">
+            <b></b><u><a href="index.html" class="selected">HOME</a></u></b>
             |
-            <b></b><u><a href="trending.html">TRENDING</a></u></b>
+            <b></b><u><a href="games.html">GAMES</a></u></b>
             |
-            <b></b><u><a href="games.html">ALL GAMES</a></u></b>
+            <b></b><u><a href="search.html">SEARCH</a></u></b>
             |
             <b></b><u><a href="recommender.html">GAME RECOMMENDER</a></u></b>
             |
-            <b></b><u><a href="#home">SUPPORT US</a></u> ❤️</b>
+            <b></b><u><a href="support.html">SUPPORT US</a></u> ❤️</b>
         </div>
 
-        <pre id="retroland"> 
+        <pre id="retroland" data-aos="flip-right" data-aos-duration="1500"> 
 ██████╗░███████╗████████╗██████╗░░█████╗░██╗░░░░░░█████╗░███╗░░██╗██████╗░
 ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔══██╗████╗░██║██╔══██╗
 ██████╔╝█████╗░░░░░██║░░░██████╔╝██║░░██║██║░░░░░███████║██╔██╗██║██║░░██║
@@ -35,7 +35,7 @@
 ╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░
         </pre>
     
-        <span class="desc">Welcome to RetroLand, the internet's greatest hub for retro video games, old and new alike.</span>
+        <span data-aos="zoom-in" data-aos-duration="3000" class="desc">Welcome to RetroLand, the internet's greatest hub for retro video games, old and new alike.</span>
 
         <div class="pacman">
             <div class="pacman-top"></div>
@@ -43,28 +43,28 @@
             <div class="feed"></div>
         </div>
 
-        <h3>Today's Picks: </h3>
+        <h3 data-aos="zoom-in" data-aos-duration="1500">Today's Picks: </h3>
 
-        <div class="carousel" data-flickity>
-            <div class="carousel-cell"><img src="./images/70s.png" alt=""></div>
-            <div class="carousel-cell"><img src="./images/80s.png" alt=""></div>
-            <div class="carousel-cell"><img src="./images/90s.png" alt=""></div>
-            <div class="carousel-cell"><img src="./images/2000s.png" alt=""></div>
-            <div class="carousel-cell"></div>
+        <div data-aos="zoom-in" data-aos-duration="1500" class="carousel" data-flickity>
+            <div class="carousel-cell"><img id="racing" src="./images/racing.png" alt=""></div>
+            <div class="carousel-cell"><img id="sport" src="./images/sport.png" alt=""></div>
+            <div class="carousel-cell"><img id="platformer" src="./images/platformer.png" alt=""></div>
+            <div class="carousel-cell"><img id="action" src="./images/action.png" alt=""></div>
         </div>
     </div>
 
-    <div class="container light">
-        
-    </div>
+    <!-- <div class="container light">
+
+    </div> -->
 
 
     
 
 
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./resources/flickity.pkgd.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </html>
