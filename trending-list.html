@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/games.css">
+	<title>RetroLand</title>
+</head>
+
+<body>
+	<div id="topnav">
+		<b></b><u><a href="index.html" class="selected">HOME</a></u></b>
+		|
+		<b></b><u><a href="games.html">GAMES</a></u></b>
+		|
+		<b></b><u><a href="search.html">SEARCH</a></u></b>
+		|
+		<b></b><u><a href="recommender.html">GAME RECOMMENDER</a></u></b>
+		|
+		<b></b><u><a href="support.html">SUPPORT US</a></u> ❤️</b>
+	</div>
+
+	<br>
+
+	<div class="time_container">
+		<label for="time" style="font-size: 20px;">From the last: </label>
+		<select id="time" name="timelist" form="timeform" style="font-size: 20px; text-align: center; font-family:'Courier New', Courier, monospace">
+			<option value="Week">Week</option>
+			<option value="Month">Month</option>
+			<option value="Year">Year</option>
+			<option value="YTD">YTD</option>
+			<option value="All time">All time</option>
+		</select>
+	</div>
+
+	<br>
+	<br>
+
+		
+	<table>
+		<tr>
+			<th width="5%" style="text-align:center;">Rank</th>
+			<th width="20%">Name</th>
+			<th width="10%">Publisher</th>
+			<th width="10%">Year</th>
+			<th width="10%">Genre</th>
+			<th width="25%">Reviews</th>
+		</tr>
+		<tr>
+			<td style="text-align:center;">1</td>
+			<td><a href="https://www.retrogames.cz/play_005-NES.php">Super Mario Bros.</a> </td>
+			<td>Nintendo</td>
+			<td>1985</td>
+			<td>Platformer</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span> (4,170)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">2</td>
+			<td><a href="https://www.retrogames.cz/play_1030-NES.php">Tetris</a> </td>
+			<td>Nintendo</td>
+			<td>1989</td>
+			<td>Puzzle / Strategy</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span> (3,890)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">3</td>
+			<td><a href="https://www.retrogames.cz/play_687-DOS.php">Oregon Trail</a> </td>
+			<td>MECC</td>
+			<td>1990</td>
+			<td>Adventure / Simulator</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span> (9,577)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">4</td>
+			<td><a href="https://www.retrogames.cz/play_102-DOS.php">Prince of Persia</a> </td>
+			<td>Brøderbund Software</td>
+			<td>1989</td>
+			<td>Action, Platformer</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span> (9,384)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">5</td>
+			<td><a href="https://www.retrogames.cz/play_245-SNES.php">Super Mario World</a> </td>
+			<td>Nintendo</td>
+			<td>1990</td>
+			<td>Platformer</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span> (17,042)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">6</td>
+			<td><a href="https://www.retrogames.cz/play_022-NES.php">Contra</a></td>
+			<td>Konami</td>
+			<td>1989</td>
+			<td>Action / Shooter</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span> (13,432)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">7</td>
+			<td><a href="https://www.retrogames.cz/play_414-DOS.php">Doom</a> </td>
+			<td>id Software</td>
+			<td>1993</td>
+			<td>Action / Shooter</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span> (4,707)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">8</td>
+			<td><a href="https://www.retrogames.cz/play_014-NES.php">Battle City</a> </td>
+			<td>Namco</td>
+			<td>1985</td>
+			<td>Action / Shooter</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span> (6,131)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">9</td>
+			<td><a href="https://www.retrogames.cz/play_085-NES.php">Bomberman</a> </td>
+			<td>Hudson Soft</td>
+			<td>1985</td>
+			<td>Action</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star "></span> (11,193)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">10</td>
+			<td><a href="https://www.retrogames.cz/play_007-NES.php">Super Mario Bros. 3</a> </td>
+			<td>Nintendo</td>
+			<td>1988</td>
+			<td>Action / Platformer</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star "></span> (11,233)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">11</td>
+			<td><a href="https://www.retrogames.cz/play_061-NES.php">Dr. Mario</a> </td>
+			<td>Nintendo</td>
+			<td>1990</td>
+			<td>Action / Puzzle</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span> (3,819)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">12</td>
+			<td><a href="https://www.retrogames.cz/play_455-DOS.php">Dyna Blaster</a> </td>
+			<td>Hudson Soft</td>
+			<td>1990</td>
+			<td>Action</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span> (2,504)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">13</td>
+			<td><a href="https://www.retrogames.cz/play_408-DOS.php">Wolfstein 3D</a> </td>
+			<td>id Software</td>
+			<td>1992</td>
+			<td>Action / Shooter</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span> (2,683)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">14</td>
+			<td><a href="https://www.retrogames.cz/play_304-SNES.php">Street Fighter II</a> </td>
+			<td>Capcom</td>
+			<td>1992</td>
+			<td>Fighting / Action</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span> (9,643)</td>
+		</tr>
+		<tr>
+			<td style="text-align:center;">15</td>
+			<td><a href="https://www.retrogames.cz/play_117-Genesis.php">Sonic the Hedgehog</a> </td>
+			<td>Sega</td>
+			<td>1991</td>
+			<td>Action / Platformer</td>
+			<td><span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span>
+				<span class="fa fa-star checked"></span> (9,643)</td>
+		</tr>
+
+	</table>
+
+
+	
+
+
+</body>
+<script src="./resources/flickity.pkgd.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+</html>
